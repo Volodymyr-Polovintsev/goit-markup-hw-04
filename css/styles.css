@@ -44,6 +44,10 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  background: #fff;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .headdf {
@@ -149,9 +153,11 @@ img {
     url(/images/office.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
+  margin: auto;
 }
 
 .hero {
@@ -227,14 +233,19 @@ img {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.img-advantages-svg {
-  width: 264px;
+.img-advantages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 112px;
   flex-shrink: 0;
   border-radius: 4px;
-  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
-  background: var(--CLOUD, #f4f4fd);
+  border: 1px solid #8e8f99;
+  background-color: #f4f4fd;
   margin-bottom: 8px;
+}
+
+.img-advantages-svg {
 }
 
 .part-advantages {
