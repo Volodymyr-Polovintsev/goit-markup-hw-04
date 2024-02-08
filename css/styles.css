@@ -160,9 +160,6 @@ img {
   margin: auto;
 }
 
-.hero {
-}
-
 .main-heading {
   color: #fff;
   text-align: center;
@@ -246,9 +243,6 @@ img {
   margin-bottom: 8px;
 }
 
-.img-advantages-svg {
-}
-
 .part-advantages {
   color: #2e2f42;
   font-size: 20px;
@@ -289,9 +283,6 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
-}
-
-.three {
 }
 
 .name-team {
@@ -483,8 +474,7 @@ img {
 .footer-space-part {
   margin-right: 120px;
 }
-.soclink-container {
-}
+
 .soclink-container-text {
   color: var(--WHITE, #fff);
   font-size: 16px;
